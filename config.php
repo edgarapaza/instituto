@@ -8,8 +8,8 @@ $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'instituto';
-$CFG->dbuser    = 'usuario';
-$CFG->dbpass    = 'archivo123$';
+$CFG->dbuser    = 'root';
+$CFG->dbpass    = '1234';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://localhost/instituto';
-$CFG->dataroot  = '/var/www/moodledata';
+$CFG->dataroot  = 'C:\laragon\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
